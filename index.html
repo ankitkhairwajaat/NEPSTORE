@@ -1,13 +1,435 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="refresh" content="0; url=https://ankitkhairwajaat.github.io/NEPSTORE/html_files/index.html">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NepStore | Ecommerce Website Design</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
 </head>
+
 <body>
-    
+
+
+  <div class="header">
+
+
+    <div class="container">
+      <div class="navbar">
+        <div class="logo">
+          <a href="index.html"><img src="images/logo nepstore.png" width="150px"></a>
+
+        </div>
+        <nav>
+          <ul id="MenuItems">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="account.html">Account</a></li>
+          </ul>
+          <a href="cart.html"><img src="images/cart.png" width="30px" height="30px"></a>
+          <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+        </nav>
+      </div>
+      <div class="row">
+        <div class="col-2">
+          <h1>Give Your Foot<br> The Comfort!</h1>
+          <p>A journey of thousand miles<br> begins with a fabulous pair of Shoes.</p>
+          <a href="products.html" class="btn">Explore Now &#8594;</a>
+
+        </div>
+        <div class="col-2">
+          <img src="images/image1.png">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-----------featured categories------------->
+  <div class="categories">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <img src="images/category-1.jpg">
+        </div>
+        <div class="col-3">
+          <img src="images/category-2.jpg">
+        </div>
+        <div class="col-3">
+          <img src="images/cate-3.jpeg" height="338px">
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+
+
+  <!-----------featured products------------->
+
+  <div class="small-container">
+    <h2 class="title">Featured Products</h2>
+    <div class="row">
+      <div class="col-4">
+        <a href="productdetails.html"><img src="images/pro-1.jpg"></a>
+        <a href="productdetails.html"></a>
+        <h4>Deviate Nitro Elite Racer Men's Running Shoes</h4></a>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+
+        </div>
+        <p>₹16,999.00</p>
+      </div>
+      <div class="col-4">
+        <a href="productdetails2.html"><img src="images/pro-2.jpg"></a>
+        <a href="productdetails2.html">
+          <h4>YEEZY BOOST 350 V2 ONYX</h4>
+        </a>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+
+        </div>
+        <p>₹22,999.00</p>
+      </div>
+      <div class="col-4">
+        <a href="productdetails3.html"><img src="images/pro-3.jpg"></a>
+        <a href="productdetails3.html">
+          <h4>UNISEX REEBOK CLASSICS EXPERIMENT 4 FURY TRAIL BY PYER MOSS</h4>
+        </a>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+
+        </div>
+        <p>₹19,999.00</p>
+      </div>
+      <div class="col-4">
+        <a href="productdetails4.html"><img src="images/pro-4.jpg"></a>
+        <a href="productdetails4.html">
+          <h4>Jordan Delta 3 SP</h4>
+        </a>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+
+        </div>
+        <p>₹14,995.00</p>
+      </div>
+    </div>
+    <h2 class="title">Latest Products</h2>
+    <div class="row">
+      <div class="col-4">
+        <a href="productdetailslp1.html"><img src="images/lp-1.jpg"></a>
+        <a href="productdetailslp1.html">
+          <h4>Adidas 4D FWD Shoes</h4>
+        </a>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+
+        </div>
+        <p>₹13,999.50</p>
+      </div>
+      <div class="col-4">
+        <a href="productdetailslp2.html"><img src="images/lp-2.jpg"></a>
+        <a href="productdetailslp2.html">
+          <h4>ULTRABOOST 21 X PARLEY SHOES</h4>
+        </a>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+
+        </div>
+        <p>₹13,999.50</p>
+      </div>
+      <div class="col-4">
+        <a href="productdetailslp3.html"><img src="images/lp-3.jpg"></a>
+        <a href="productdetailslp3.html">
+          <h4>PUMA x PWRFRAME OP-1 Abstract Unisex Sneakers</h4>
+        </a>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+
+        </div>
+        <p>₹6,599.00</p>
+      </div>
+      <div class="col-4">
+        <a href="productdetailslp4.html"><img src="images/lp-4.jpg"></a>
+        <a href="productdetailslp4.html">
+          <h4>UNISEX REEBOK X CARDI B CLASSIC LEATHER SHOES</h4>
+        </a>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-half-o"></i>
+
+        </div>
+        <p>₹5,399.00</p>
+      </div>
+      <div class="col-4">
+        <a href="productdetailslp5.html"><img src="images/lp-5.jpg"></a>
+        <a href="productdetailslp5.html">
+          <h4>Jordan .5 'Why Not?'</h4>
+        </a>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+
+        </div>
+        <p>₹11,495.00</p>
+      </div>
+      <div class="col-4">
+        <a href="productdetailslp6.html"><img src="images/lp-6.jpg"></a>
+        <a href="productdetailslp6.html">
+          <h4>Nike Air Zoom Terra Kiger 8</h4>
+        </a>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+
+        </div>
+        <p>₹12,995.00</p>
+      </div>
+      <div class="col-4">
+        <a href="productdetailslp7.html"><img src="images/lp-7.jpg">
+          <Voyage Nitro FM Men's Running Shoes/a>
+            <a href="productdetailslp7.html">
+              <h4></h4>
+            </a>
+            <div class="rating">
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star"></i>
+              <i class="fa fa-star-o-half"></i>
+
+            </div>
+            <p>₹11,999.00</p>
+      </div>
+      <div class="col-4">
+        <a href="productdetailslp8.html"><img src="images/lp-8.jpg"></a>
+        <a href="productdetailslp8.html">
+          <h4>Electrify Nitro Men's Running Shoes</h4>
+        </a>
+        <div class="rating">
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star"></i>
+          <i class="fa fa-star-o"></i>
+
+        </div>
+        <p>₹9,999.00</p>
+      </div>
+    </div>
+  </div>
+
+
+  <!----------- offer ---------->
+  <div class="offer">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-2">
+          <img src="images/ex-2.jpg" width="100%" class="offer-img">
+
+        </div>
+        <div class="col-2">
+          <h3>Exclusively Available on NEPSTORE</h3>
+          <h1>PHARRELL WILLIAMS BASICS CREWNECK SWEATSHIRT</h1>
+          <small>Step into your power. In his latest collaboration with adidas,
+            Pharrell Williams pairs everyday basics with sleek execution to deliver
+            his vision to the masses. Soft yet sleek, this sweatshirt keeps you decked
+            out in comfort with a heavyweight French terry build and easy-to-wear cut.<br></small>
+          <a href="productdetailsex.html" class="btn">Buy Now &#8594</a>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!----testimonial-------->
+
+  <div class="testimonial">
+    <div class="small-container">
+      <div class="row">
+        <div class="col-3">
+          <i class="fa fa-quote-left"></i>
+          <p>NEPSTORE is a very well managed online shoes store. With best shoes quality. I liked this store
+            the most because of it's authenticated products.
+          </p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+
+          </div>
+          <img src="images/us-1.jpg">
+          <h3>Tim Joe</h3>
+        </div>
+        <div class="col-3">
+          <i class="fa fa-quote-left"></i>
+          <p>As I am really into buying high-quality, elegant and long-lasting shoes,
+            I found out about NEPSTORE from blogs, and since comments about it were excellent,
+            I decided to try it myself.<br>My impression was very good. The homepage is extremely functional,
+            informative, easy to use and helpful.</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+
+          </div>
+          <img src="images/user-2.png">
+          <h3>Daren Smith</h3>
+        </div>
+        <div class="col-3">
+          <i class="fa fa-quote-left"></i>
+          <p>I’m extremely pleased with the three pairs of shoes I ordered from NEPSTORE,
+            and especially so as this was the first time I have purchased shoes online.</p>
+          <div class="rating">
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-half-o"></i>
+
+          </div>
+          <img src="images/us-3.jpg">
+          <h3>Albert Phillips</h3>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!----brands--------->
+  <div class="brands">
+    <div class="small-container">
+      <h1>Our Partners :</h1>
+      <div class="row">
+        <div class="col-5">
+          <img src="images/log-adodas.png">
+        </div>
+        <div class="col-5">
+          <img src="images/log-reebok.png">
+        </div>
+        <div class="col-5">
+          <img src="images/log-puma.png">
+        </div>
+        <div class="col-5">
+          <img src="images/log-nike.png">
+        </div>
+        <div class="col-5">
+          <img src="images/logo-paypal.png">
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!----fooetr---->
+  <div class="footer">
+    <div class="container">
+      <div class="row">
+        <div class="footer-col-1">
+          <h3>Thanks</h3>
+          <p>We thank you for reaching us.</p>
+          <div class="app-logo">
+            <img src="images/thank1.jpg">
+
+          </div>
+        </div>
+        <div class="footer-col-2">
+          <img src="images/logo nepstore.png">
+          <p>Our Purpose Is To Sustainably Make the Pleasure and
+            Benefits of Shoes to the Many.</p>
+        </div>
+        <div class="footer-col-3">
+          <h3>Useful Links</h3>
+          <ul>
+            <li>Coupons</li>
+            <li>Blog Post</li>
+            <li>Return Policy</li>
+            <li>Join Affiliate</li>
+          </ul>
+        </div>
+        <div class="footer-col-4">
+          <h3>Follow Us</h3>
+          <ul>
+            <a href="https://www.facebook.com/ankit.khairwa.1">
+              <li>Facebook</li>
+            </a>
+            <li>Twitter</li>
+            <li>Instagram</li>
+            <li>YouTube</li>
+          </ul>
+        </div>
+      </div>
+      <hr>
+      <p class="copyright">Copyright 2022 - NEPSTORE sales</p>
+    </div>
+  </div>
+
+
+  <!-----js for toggle menu----->
+
+  <script>
+    var MenuItems = document.getElementById("MenuItems");
+    MenuItems.style.maxHeight = "0px";
+
+    function menutoggle() {
+
+      if (MenuItems.style.maxHeight == "0px") {
+        MenuItems.style.maxHeight = "200px";
+      }
+
+      else {
+        MenuItems.style.maxHeight = "0px";
+      }
+    }
+  </script>
+
 </body>
 </html>
